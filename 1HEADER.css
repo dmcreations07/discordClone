@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+/*	font-family: whitney;*/
+	background: transparent;
+}
+
+.Top{
+	font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+	padding: 28px 41px;
+	width: auto;
+	display: flex;
+}
+
+.Logo{
+	width: 10vw;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.Logo img{
+	height: 5vh;
+}
+
+.Logo img:hover{
+	cursor: pointer;
+}
+
+.links a{
+	text-decoration: none;
+}
+
+.links{
+	cursor: default;
+	margin-top: 0rem;
+	width: 70vw;
+	font-family: 'Raleway', sans-serif;
+	place-content: center;
+	text-align: center;
+}
+
+.links a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15.5px;
+	transition: .2s ease-in-out;
+	font-family: 'Raleway', sans-serif;
+}
+
+.links a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#a1{
+	margin-left: .9rem;
+}
+
+#a02{
+	margin-left: 2.5rem;
+}
+
+#a2{
+	margin-left: 2rem;
+}
+
+.LogBTN{
+	height: 6vh;
+	margin-left: 5.8rem;
+	margin-top: -.5rem;
+}
+
+.LogBTN button{
+	font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+	cursor: pointer;
+	border: none;
+	border-radius: 50px;
+	padding: 11px 17px;
+	color: black;
+	font-size: 13.7px;
+	font-weight: 500;
+	background: white;
+	transition: 0.2s ease-in-out;
+}
+
+.LogBTN button:hover{
+	box-shadow: 2px 3px 15px rgba(0,0,0,0.2);
+}

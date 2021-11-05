@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<style type="text/css">
+	form {
+  line-height: 1.7em;
+}
+
+label {
+  /* make it look like a button */
+  width: 4em;
+  float: left;
+  overflow: hidden;
+  margin: 0.25em;
+  box-shadow: 0 0 0 1px;
+  border-radius: 5px;
+  line-height: 1.2em;
+  text-align: center;
+  background: #4285F4;
+  margin-left: 0;
+  transition: 0.5s;
+}
+
+input {
+  float: left;
+  clear: left;
+  margin: 0.25em 0.25em 0.25em -50%;
+}
+
+input:focus {
+  transition: 0.5s;
+  margin: 0.25em 0;
+}
+
+input:focus+label {
+  margin-left: -50%;
+  transition: 0.5s;
+}
+</style>
+
+
+
+<form>
+							  <input id="ipt1" />
+							  <label for="ipt1"> input 1 </label>
+							  <input id="ipt2" />
+							  <label for="ipt2"> input 2 </label>
+							  <input id="ipt3" />
+							  <label for="ipt3"> input 3 </label>
+							</form>
+
+
+</body>
+</html>
