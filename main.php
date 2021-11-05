@@ -6,6 +6,7 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="Mainstyle.css">
 	<link rel="stylesheet" type="text/css" href="1HEADER.css">
+	<link rel="stylesheet" type="text/css" href="logInStyle.css">
 
 	<title>DISCORD | Your Place to Talk and Hang out</title>
 </head>
@@ -35,40 +36,6 @@ include("1HEADER.php");
 		</div>		
 	</div>
 </div>
-
-<script>
-
-	$(function(){
-		let btnwindows = $(".btn");
-		let btnOpenBrowser = $(".openInBrowser");
-		let btnbrowserUsername = $(".usernameDiv");
-		btnbrowserUsername.hide();
-
-		btnOpenBrowser.click(function(){
-			btnwindows.slideUp(100);
-			btnOpenBrowser.slideUp(100);
-			btnbrowserUsername.slideDown("400");
-		});
-	});
-
-	// let btnWindows = document.querySelector(".btn");
-	// let btnBrowser = document.querySelector(".openInBrowser");
-	// let btnBrowserUsername = document.querySelector(".browserUsername");
-	// let termsText = document.querySelector(".termsText");
-	// btnBrowserUsername.style.visibilty = "hidden";
-	// btnBrowserUsername.style.display = "none";
-	// termsText.style.display = "none";
-	// termsText.style.visibilty = "hidden";
-	// btnBrowser.addEventListener("click",function(){
-	// 	btnBrowser.style.display = "none";
-	// 	btnBrowser.style.visibilty = "hidden";
-	// 	btnWindows.style.display = "none";
-	// 	btnWindows.style.visibilty = "hidden";
-	// 	btnBrowserUsername.style.display = "block";
-	// 	btnBrowserUsername.style.visibilty = "visible";
-	// 	termsText.style.display = "block";
-	// 	termsText.style.visibilty = "visible";
-	// });
-</script>
+<script type="text/javascript" src="usernameAnimation.js"></script>
 </body>
 </html>
