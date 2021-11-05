@@ -14,8 +14,12 @@
 			<a id="a2" href="#">Careers</a>
 			</p>
 		</div>
-			<div class="LogBTN">
-				<a href="#"><button>Login</button></a>
-			</div>
+		<div class="LogBTN">
+			<button onclick="togglePopup()">Login</button>
+		</div>
+
+		<?php
+			include("loginPopup.php");
+		?>
 
 </div>
