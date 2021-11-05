@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
 /*font-family: 'Titillium Web', sans-serif;*/
+
 *{
 	margin: 0;
 	padding: 0;
@@ -144,15 +145,32 @@ input:focus+label {
 	box-shadow: 3px 3px 15px rgba(0,0,0,0.4);
 }
 
-.browserUsername{
-	/*padding: 15px 50px 15px 10px;*/
-	border: none;
-	width: 400px;
-	padding: 15px 10px;
+.usernameDiv{
+	width: 430px;
+	padding: 5px;
 	background-color: #fff;
 	border-radius: 100px;
-	font-size: 15px;
+}
+
+.browserUsername{
+	border: none;
+	width: 300px;
+	padding: 12px 10px;
+	background-color: #fff;
+	font-size: 16px;
 	transition: 0.3s;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.usernameBtn{
+	border: none;
+	color: #fff;
+	border-radius: 100px;
+	padding: 13px 14px;
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	background: linear-gradient(90deg, rgba(10,4,124,1) 0%, rgba(39,2,190,1) 49%, rgba(0,134,215,1) 100%);
+	cursor: pointer;
 }
 
 .browserUsername:focus{
