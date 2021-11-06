@@ -6,7 +6,7 @@
 	</div>
 		<div class="links">
 			<p>
-			<a id="a1" href="#">Download</a>
+			<a id="a1" href="download.php">Download</a>
 			<a id="a02" href="#">Nitro</a>
 			<a id="a2" href="#">Safety</a>
 			<a id="a2" href="#">Support</a>
